@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.left {
+  width: 40%;
+  height: 90vh;
+  background-color: #03004f;
+  margin: 8% 0 8% 8%;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+img {
+  height: 12vh;
+  width: 24vw;
+  border-radius: 100rem;
+  margin: 15%;
+}
+h3 {
+  font-size: 5vw;
+  color: white;
+  margin-left: 5%;
+}
+hr {
+  height: 0.5vh;
+  margin: 5% 70% 5% 5%;
+  border-radius: 100rem;
+  background-color: white;
+}
+h4 {
+  color: white;
+  font-size: 4vw;
+  margin-left: 5%;
+}
+p {
+  color: white;
+  font-size: 3vw;
+  margin-left: 5%;
+}
+.float {
+  display: flex;
+}
+.right {
+  width: 58%;
+  height: 90vh;
+  margin: 8% 8% 8% 0;
+  box-sizing: border-box;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+h2 {
+  font-size: 4vw;
+  margin-top: 5%;
+  color: #03004f;
+  margin: 5% auto auto 15%;
+}
+@keyframes animate{
+
+ 0%{transform:rotateY(360deg) scale(0)}
+
+ 50%{transform:rotateX(0deg) scale(1)}
+
+ 100%{transform:rotate(0deg) scale(1)}
+
+}
+.h5 {
+  font-size: 2vw;
+  color: #230091;
+  margin-left: 15%;
+  transform: rotate(360deg);
+ animation:animate 4s linear infinite;
+}
+h5 {
+  font-size: 2vw;
+  color: #230091;
+  margin-left: 15%;
+}
+h1 {
+  font-size: 4vw;
+  margin: 30% auto 3% 15%;
+}
+.hr {
+  height: 0.5vh;
+  margin: 3% 70% 5% 15%;
+  border-radius: 100rem;
+  background-color: black;
+}
+.h2 {
+  font-size: 4vw;
+  margin-top: 5%;
+  color: #03004f;
+  margin: 35% auto auto 15%;
+}
