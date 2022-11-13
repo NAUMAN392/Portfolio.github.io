@@ -329,3 +329,12 @@ textarea::placeholder{
   color: white;
   font-size: 3vw;
 }
+.animate{
+    transition:all 500ms linear;
+    opacity:0;
+    transform:scale(.80,.80) translateY(-50px);
+}
+.myAnimate{
+    opacity:1;
+    transform:scale(1,1) translateY(0px);
+}
