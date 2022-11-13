@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="portfolio.css" />
@@ -14,6 +15,13 @@
       emailjs.init("M29Kopnkbtlxh7FAC");
    })();
 </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+        </script>
   </head>
   <body>
     <header>
@@ -45,29 +53,29 @@
     <h2><strong>M</strong>uhammad Nauman</h2>
     <h4 class="web">a web developer</h4>
     </div>
-     <img id="nauman" src="nauman.jpg" loading='lazy' />
+     <img id="nauman" src="nauman.jpg" data-aos="fade-left" />
      <a href="cv.html"><button>Professional CV</button></a>
     <h2 id="About Me1">About <strong>Me1</strong></h2>
-    <div class="about">
+    <div class="about" data-aos="fade-left">
     <img src="nomi.jpg" class="float" />
     <p>
       My name is M.Nauman.I have done my matriculation from GOVT.High school E-block sabzazar Lahore with excellent <b>(A+)</b> grade.I love coding,cricket and reading.I reallly passionate with my work.
     </p>
     </div>
      <h2><strong>P</strong>ROJECTS</h2>
-     <div class="flex">
+     <div class="flex" data-aos="fade-left">
        <a class="link" href="https://nauman392.github.io/Multitheme-Calculator.github.io/"><img id="projects" src="1.png" loading='lazy' />themeCalculator</a>
        <a class="link" href="https://nauman392.github.io/facebookClone.github.io/"><img id="projects" src="2.png" loading='lazy'/>facebookClone</a>
      </div>
          <h2 id="About Me2">About <strong>Me2</strong></h2>
-    <div class="about">
+    <div class="about" data-aos="fade-left">
     <img src="noman.jpg" class="float1" />
     <p class="p">
       I have two years of teaching(Math & Comp) experience at abeera academy.I also have two years of experience as a web developer (freelancer).I love to explore new things.
     </p>
     </div>
     <h2 id="Skills">My <strong>skills</strong></h2>
-<div class="skills">
+<div class="skills" data-aos="fade-left">
             <li><h2>HTML</h2><span class="bar"><span class="html"></span></span></li>
              <li><h2>CSS</h2><span class="bar"><span class="css"></span></span></li>
               <li><h2>JavaScript</h2><span class="bar"><span class="javascript"></span></span></li>
@@ -79,10 +87,10 @@
     <footer id="contacts">
       
              
-      <input type="text" id="fromName" placeholder="enter your name" />
-      <input type="email" id="toName" placeholder="enter your email" />
-      <textarea id="msg" placeholder="enter your message..."></textarea>
-      <input type="button" id="submit" value="Send Message" onclick="sendEmail()" />
+      <input type="text" id="fromName" placeholder="enter your name"  data-aos="fade-left"/>
+      <input type="email" id="toName" placeholder="enter your email"  data-aos="fade-left"/>
+      <textarea id="msg" placeholder="enter your message..." data-aos="fade-left"></textarea>
+      <input type="button" id="submit" value="Send Message" onclick="sendEmail()"  data-aos="fade-left"/>
            <address>
         Name: M.Nauman
         <br /><br />
@@ -90,7 +98,7 @@
         <br /><br />
         Phone No. +923254826424
       </address>
-      <div class="flex">
+      <div class="flex" data-aos="fade-left">
         <a href="tel: +923254826424"><img class="address" src="placeholder.png" /></a>
     <a href="mailto: naumanmunir325@gmail.com"><img class="address" src="email.png" /></a>
         <a href="https://wa.me/message/+923254826424"><img class="address" src="whatsapp.png" /></a>
