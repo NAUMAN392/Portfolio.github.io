@@ -68,3 +68,31 @@ function copy(){
     el = document.getElementById("copy");
     el.innerHTML = d.toDateString();
 }
+//animation 
+$(document).ready(function(){
+    
+    let animates = $(".animate");
+        
+        
+        $(window).scroll(function(){
+           let  wScroll = $(window).scrollTop() + $(window).height() - 125;
+
+            animates.each(function(){
+                 
+                 let animate = $(this);
+                 
+                 if(animate.offset().top - 20 < wScroll){
+                     
+                     animate.addClass("myAnimate");
+                     
+                      
+                 }else{
+                     animate.removeClass("myAnimate");
+                 }              
+                
+            })
+            
+            
+        });
+        $(window).trigger("scroll");
+});    
