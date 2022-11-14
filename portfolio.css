@@ -37,8 +37,6 @@ hr {
   margin: 3%;
 }
 .button {
-left: 0;
-right: 0;
  top: 0;
   overflow: hidden;
   width: 100%;
@@ -48,9 +46,6 @@ right: 0;
   opacity: 0.9;
 }
 .butt {
-left: 0;
-right: 0;
-top: 0;
   width: 150%;
   height: auto;
   z-index: 99;
@@ -120,8 +115,6 @@ h2,strong {
   margin: 4%;
 }  
 footer {
-  left: 0;
-right: 0;
   width: 100%;
   height: auto;
   background-image: linear-gradient(to right, #2A2A72, #5f46ff);
