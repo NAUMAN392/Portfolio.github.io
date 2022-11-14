@@ -39,14 +39,14 @@ hr {
 .button {
  top: 0;
   overflow: hidden;
-  width: 100%;
+  width: 120%;
   height: 7vh;
   position: absolute;
   background-image: linear-gradient(to right, #2A2A72, #5f46ff);
   opacity: 0.9;
 }
 .butt {
-  width: 100%;
+  width: 120%;
   height: auto;
   z-index: 99;
 }
