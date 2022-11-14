@@ -39,14 +39,14 @@ hr {
 .button {
  top: 0;
   overflow: hidden;
-  width: 120%;
+  width: 150%;
   height: 7vh;
   position: absolute;
   background-image: linear-gradient(to right, #2A2A72, #5f46ff);
   opacity: 0.9;
 }
 .butt {
-  width: 120%;
+  width: 150%;
   height: auto;
   z-index: 99;
 }
@@ -115,7 +115,7 @@ h2,strong {
   margin: 4%;
 }  
 footer {
-  width: 100%;
+  width: 150%;
   height: auto;
   background-image: linear-gradient(to right, #2A2A72, #5f46ff);
 }
