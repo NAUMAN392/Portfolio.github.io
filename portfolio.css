@@ -37,6 +37,7 @@ hr {
   margin: 3%;
 }
 .button {
+right: 0;
   top: 0;
   overflow: hidden;
   width: 100%;
@@ -46,6 +47,7 @@ hr {
   opacity: 0.9;
 }
 .butt {
+right: 0;
 position: absolute;
   width: 100%;
   height: auto;
