@@ -7,7 +7,7 @@
   width: 40%;
   height: 90vh;
   background-color: #03004f;
-  margin: 8% 0 8% 8%;
+  margin: 8% 0 8% 2%;
   box-sizing: border-box;
   border-left: 2px solid black;
   border-top: 2px solid black;
@@ -46,7 +46,7 @@ p {
 .right {
   width: 58%;
   height: 90vh;
-  margin: 8% 8% 8% 0;
+  margin: 8% 2% 8% 0;
   box-sizing: border-box;
   border-right: 2px solid black;
   border-top: 2px solid black;
