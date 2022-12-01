@@ -107,9 +107,9 @@ h2,strong {
   display: flex;
 }
 #projects {
-  height: 15vh;
+  height: 20vh;
   margin: 5%;
-  width: 80%;
+  width: 90%;
   box-sizing: border-box;
   box-shadow: 5px 5px 10px gray;
   border-radius: 10px;
