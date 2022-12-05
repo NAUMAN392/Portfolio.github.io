@@ -68,3 +68,18 @@ function copy(){
     el = document.getElementById("copy");
     el.innerHTML = d.toDateString();
 }
+//Scroll to top button
+let myButtton = document.getElementById('mybtn');
+        window.onscroll = function(){scrollFunction()};
+        function scrollFunction(){
+          if(window.innerHeight>20 || document.documentElement.scrollTop > 20){
+            myButton.style.display = "block";
+          }
+          else{
+            myButton.style.display = "none";
+          }
+        }
+        function topFunction(){
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
