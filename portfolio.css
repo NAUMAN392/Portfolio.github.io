@@ -19,7 +19,7 @@ html {
   height: 4vh;
   width: 8vW;
   border-radius: 100px;
-  right: 5%;
+  margin-left: 85%;
   margin-top: 3%;
   z-index: 99;
 }
