@@ -19,9 +19,8 @@ html {
   height: 4vh;
   width: 8vW;
   border-radius: 100px;
-  margin-top: 3%;
   z-index: 99;
-margin-left: 3%;
+  margin-left: 3%;
 }
 body {
   background-color: black;
@@ -36,11 +35,11 @@ a {
 .ham {
   height: 5vh;
   width: 10vW;
-margin-left: 85%;
+  margin-left: 85%;
   border-radius: 100px;
   right: 3%;
   cursor: pointer;
-  top: 3%;
+  margin-top: 3%;
 }
 hr {
   margin: 3%;
